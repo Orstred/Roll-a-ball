@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+
         if (GameManager.instance == null)
         {
             instance = this;
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
 
 
     [SerializeField] private int CoinNumber;
+
 
     public void AddCoin()
     {

@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
 
     private PlayerMotor motor;
 
+
+
     private void Start()
     {
         motor = GetComponent<PlayerMotor>();
