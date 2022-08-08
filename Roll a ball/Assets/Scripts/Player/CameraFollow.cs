@@ -19,11 +19,12 @@ public class CameraFollow : MonoBehaviour
 
     private void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, target.position, dampsmooth * Time.deltaTime);
+        
     }
 
     private void LateUpdate()
     {
         target.position = player.position + Offset;
+        transform.position = target.position;
     }
 }
