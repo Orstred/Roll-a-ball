@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 7ec6ba09a152f5f449d051b0815ce622, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -222,7 +222,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 05d4574ab7be831459b90dbbbf09b159, type: 2}
+  - {fileID: 2100000, guid: d6816c9614fc7944fb65192387cf0721, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -808,7 +808,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 05d4574ab7be831459b90dbbbf09b159, type: 2}
+  - {fileID: 2100000, guid: 6a2fe6fe9f10ca54da90ae82324cb42b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -868,11 +868,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 349473792947978420, guid: 0c474898f81dbbc479c8802b4408c100, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.384698
       objectReference: {fileID: 0}
     - target: {fileID: 349473792947978420, guid: 0c474898f81dbbc479c8802b4408c100, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.92304254
       objectReference: {fileID: 0}
     - target: {fileID: 349473792947978420, guid: 0c474898f81dbbc479c8802b4408c100, type: 3}
       propertyPath: m_LocalRotation.y
@@ -884,7 +884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 349473792947978420, guid: 0c474898f81dbbc479c8802b4408c100, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 225.25
       objectReference: {fileID: 0}
     - target: {fileID: 349473792947978420, guid: 0c474898f81dbbc479c8802b4408c100, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y

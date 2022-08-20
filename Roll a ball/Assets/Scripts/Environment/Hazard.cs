@@ -4,9 +4,14 @@ using UnityEngine.SceneManagement;
 public class Hazard : MonoBehaviour
 {
 
+
+
     private void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (collision.transform.tag == "Player")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
 
